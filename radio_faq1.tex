@@ -1,0 +1,326 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}                                                         
+\usepackage{fontenc}                                                        
+\usepackage{graphicx}                                                       
+\usepackage{textcomp}                                                       
+\usepackage{enumerate}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{authblk}
+\usepackage{url}
+\usepackage{float}
+\usepackage[a4paper, left=2 cm, right=2 cm, top=3cm, bottom=3cm,]{geometry}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=black}
+\usepackage{secdot}
+\title{\textbf{FAQ - Często zadawane pytania przez przyszłych i początkujących radioamatorów}}
+\author{Fundacja Hackerspace Kraków
+oraz klub SP9KGP\\
+Autorzy:\\
+Krzysztof SQ8RK\\
+Paweł SQ9PID\\
+Szymon SQ9ZAQ\\
+Kuba\\
+Jacek\\
+Tadek SP9TED\\
+Wojciech SQ9PBS\\
+Wiktor SQ9WTF\\
+Marcin SQ9ONH\\
+Arek SQ3PMK}                                                          
+
+
+\begin{document}
+\maketitle
+
+\newpage
+%\tableofcontents
+\newpage
+
+\section{Wstęp}
+Pasmo, modulacja, propagacja… Te dziwne słowa usłyszane od znajomych sprawiły że zaczęliśmy szukać informacji o radiu i krótkofalarstwie. Pojawiło się wiele pytań, którymi zadręczaliśmy kolegów. Pierwsze nasłuchy, nauka do egzaminu krótkofalarskiego czy przygotowania do pierwszego „QSO” dołożyły do tej listy kilkanaście kolejnych pozycji. Postanowiliśmy je spisać, zarówno te „trywialne” jak i te bardziej szczegółowe, po czym poprosiliśmy bardziej doświadczonych kolegów o zredagowanie odpowiedzi, które można by zamieścić w „FAQ”. Tak oto powstał niniejszy dokument. Nie wyczerpuje on tematu, ale wierzymy że każdy początkujący znajdzie tutaj interesujące go pytania i zrozumiałe odpowiedzi. 
+
+Życzymy przyjemnej lektury i… do usłyszenia na pasmach! 73!
+
+\section{Co tak właściwie daje nam krótkofalarstwo i po co ono jest?}
+Z definicji służba radioamatorska, to ``służba mająca na celu samokształcenie i nawiązywanie łączności (...)''. Jak sama nazwa mówi - daje to satysfakcję z tego, że się porozmawia z kimś ciekawym - tak samo można mieć satysfakcje z skonstruowania sprzętu lub zrobienia dalekiej, czy rzadkiej łączności.
+
+\section{Jaki sprzęt jest potrzebny na początek zabawy?}
+Na początek najlepszym “starter kit-em”, który pozwala na lokalną łączność na fonii, jest mniej więcej coś takiego:
+\begin{itemize}
+ \item radio ręczne na przykład Baofeng UV-82 lub w wypadku większej ilości dostępnej gotówki Wouxun
+ \item przejściówka na cywilizowane złącze UC-1
+ \item jakaś sensowna antena własnej produkcji (np. prosty dipol) lub kupna (np. typu 2x5/8)
+\end{itemize}
+
+\section{Jakie częstotliwości radiowe obejmują określone kategorie pozwoleń?}
+\begin{itemize}
+\item Dla kategorii 1 - wszystkie, to znaczy - 160m (1,8MHz), 80m (3,5MHz), 40m (7MHz), 30m (10MHz), 20m (14MHz), 17m (18MHz), 15m (21MHz), 12m (24MHz), 10m (28MHz), 6m (50MHz), 4m (70MHz), 2m (144MHz), 70cm (430MHz), 23cm (1.2GHz), 13cm (2.3GHz) i wyższe (pasma mikrofalowe). 
+\item Dla kategorii 3 są to pasma 160m, 80m, 15m, 10m, 2m, 70cm i 3cm (10GHz).\end{itemize}
+
+\section{Jaki jest zasięg pasm (propagacja)?}
+Niższe pasma (80m, 40m) bardziej nadają się na łączności lokalne, lecz przy dobrych warunkach pozwalają również na DX-y. Pasmo 20m jest chyba najoptymalniejsze dla dalekich łączności, lecz nie nadaje się do lokalnych rozmów. Wyższe pasma (powyżej 20m) są aktywne głównie w ciągu dnia, pozwalając na łączności z całym światem, przy dosyć ograniczonym nakładzie środków.
+
+\section{Co to w ogóle jest to „pasmo”?}
+Pasmo to po prostu jasno określony zakres częstotliwości. Często podawana jest długość fali np. pasmo 144MHz to inaczej pasmo 2m.
+
+\section{Co to jest DX?}
+DX, czyli daleka łączność. Zazwyczaj nawiązuje się je przez odbicia od jonosfery, która służy za naturalny ekran Ziemi, który część sygnału wypromieniowuje w kosmos, a część odbija znów do Ziemi. W zależności od pasma, odbicie od jonosfery jest większe, lub mniejsze.
+
+\section{Jak wygląda przykładowa ``łączność''?}
+Poniżej zamieściliśmy zapis przykładowej łączności pomiędzy stacjami SQ9ZAQ oraz SV3GLL:
+
+\begin{itemize}
+ \item CQ CQ CQ, this is SV3GLL, Sierra Victor three Golf Lima Lima, SV3GLL, Sierra Victor three Golf Lima Lima is standing by for a call.
+ \item SV3GLL, Sierra Victor three Golf Lima Lima, this is SQ9ZAQ, Sierra Quebec nine Zulu Alpha Quebec, Sierra Quebec nine Zulu Alpha Quebec
+ \item SQ9ZAQ, this is SV3GLL. Good morning and thank you for the call. Your report is 59, 5 by 9. My name is ZACHARIAS, and the location is Astros do you copy me? SQ9ZAQ this is SV3GLL.
+ \item SV3GLL this is SQ9ZAQ. Good morning and thank you for the report. Report for you is 5 by 9. My name is Szymon, Sierra Zulu Yankee Mike Oscar November, and QTH is Cracow in Poland. QSL?
+ \item SQ9ZAQ this is SV3GLL. Roger, thank you very much for the report, and it is good to talk to you for the first time. The equipment this is a small transceiver running about 50 watts and the antenna is a vertical. So I wonder how you are copying. SQ9ZAQ this is SV3GLL.
+ \item SV3GLL this is SQ9ZAQ. I am running about 100 watts to a long wire antenna on my roof. So back to you, SV3GLL this is SQ9ZAQ
+ \item SQ9ZAQ this is SV3GLL. Fine, your equipment is also doing a good job for you. I don't have a lot more to say so I will wish you 73s to you and yours, and look forward to the next QSO. SQ9ZAQ this is SV3GLL.
+ \item SV3GLL this is SQ9ZAQ. Thank you for the QSO. 73 for you and I hope to have another contact with you further down the log. Bye.
+\end{itemize}
+
+\section{Co to jest przemiennik?}
+Przemiennik to, najprościej mówiąc, stacja retransmisyjna - odbierająca na jednej częstotliwości i nadająca na drugiej. W paśmie 2m jest to różnica 600kHz (np. 145,600MHz odbiór, 145,000MHz nadawanie), a w paśmie 70cm - 7.6MHz. Różnica ta nazywana jest ‘shift’ lub ‘rpt offset’ i w Polsce oraz większości krajów jest ujemna, co oznacza, że powinniśmy mieć w radiu ustawioną częstotliwość wyjścia przemiennika, a nadawać na częstotliwości niższej. Aby skorzystać z przemiennika, należy go ``otworzyć'' czyli uruchomić. Zwykle robi się to na 3 sposoby:
+
+\begin{enumerate}
+ \item Nośną - czyli przemiennik uruchamia się jak tylko słyszy, że ktoś do niego nadaje na określonej częstotliwości - zwanej częstotliwością wejściową przemiennika.
+ \item Tonem 1750Hz - czyli przed rozpoczęciem rozmowy należy nadać odpowiedni sygnał, równy 1750Hz. Większość urządzeń ma wbudowaną taką funkcję, jeśli jednak jej nie powiadamy to wystarczy w odpowiedni sposób gwizdnąć w mikrofon.
+ \item Tonem CTCSS - czyli nałożoną na naszą rozmowę niesłyszalną częstotliwością, która powoduje otwarcie przemiennika.
+\end{enumerate}
+
+
+Na przemiennikach mogą też działać różne usługi (np. Echolink - więcej informacji w “VHF Managers Handbook 6.12\footnote{\url{http://www.mrasz.hu/szakagak/urh/pdf/szabalyzatok/VHF\_Handbook\_V6\_12.pdf}}”)  Przemienniki używane są do komunikacji gdy bezpośrednie połączenie pomiędzy osobami nie jest możliwe. Przemienniki znajdują się zwykle na wzniesieniach, wysokich masztach itd, co znacznie zwiększa ich zasięg.
+
+\section{Co to jest Echolink i jak z niego korzystać?}
+Echolink jest to usługa, pozwalająca krótkofalowcom z całego świata łączyć się przy pomocy Internetu z przemiennikami UKFowymi na całym świecie. Wystarczy, że dany przemiennik jest podłączony do komputera z odpowiednim oprogramowaniem i dostępem do Internetu.
+Aplikacje klienta EchoLink dostępne są na wszystkie systemy operacyjne, także na smartfony, co daje ciekawe możliwości w przypadku braku radia pod ręką.
+
+Istnieje także możliwość wypożyczenia od kogoś konta EchoLink, jeśli nie mamy licencji, ale tylko w celu nasłuchu, nie możemy nic nadawać. To jest dobre, jeśli chcemy posłuchać i “obyć się” z protokołem krótkofalarskim czyli tzw. „operatorką”, a w dodatku nie wymaga to posiadania innego sprzętu niż komputer.
+
+\section{Co to jest znak wywoławczy i gdzie mogę sprawdzić listę przyznanych znaków?}
+Znak wywoławczy to unikalny na cały świat skrót składający się z od 4 do 6 znaków, lub nawet do 8 znaków (dla stacji okolicznościowych). Składa się z prefiksu (dwa znaki alfanumeryczne - dla Polski to SP, SQ, SR, SO, SN, 3Z, HF), numeru okręgu (dla Polski od 1 do 9) i sufiksu (1-3 liter, a dla stacji okolicznościowych, nawet do 5).
+Dość często aktualizowaną listę wydanych pozwoleń można znaleźć w arkuszu od UKE\footnote{\url{http://www.uke.gov.pl/pozwolenia-radiowe-oraz-decyzje-zmieniajace-pozwolenia-radiowe-w-sluzbie-radiokomunikacyjnej-amatorskiej-8753}}.
+
+
+\section{Jakie są zasady wydawania znaków wywoławczych?}
+Aktualnie znak wywoławczy jeśli jest wolny to można sobie wybrać, kiedyś wydawano je po kolei. Prefiksu 3Z ani HF nie dostaniemy ze względu na to, że są one wydawane stacjom okolicznościowym. SR dla stacji kategorii 5 (automatycznych). Kiedyś istniało SO, dedykowane kategorii 3, ale teraz stan tego prefiksu jest niejasny.
+
+\section{Co to jest okręg wywoławczy?}
+Okręg wywoławczy jest to obszar (konkretnie dla polski - obejmujący kilka województw) ułatwiający zlokalizowanie operatora w danej części kraju. W tym momencie przydział konkretnego numerka ma mniejsze znaczenie formalne niż kiedyś. Możliwe są sytuacje w której operator przenosi stację między okręgami, ale ze względów sentymentalnych pozostawia się mu znak z poprzedniego okręgu. Więcej informacji o identyfikacji stacji można znaleźć tutaj\footnote{\url{http://www.sp5zba.net/?identyfikacja-radiostacji-amatorskich,46}}. 
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=150pt]{./Polish_HAM_Radio_Regions.png}
+ \caption{Mapa okręgów wywoławczych w Polsce}
+\end{figure}
+
+\section{Na czym polega łamanie znaku?}
+Łamanie znaku jest to chwilowa zmiana znaku ze względu na lokalizację stacji, lub warunki pracy. Przykładowy ”połamany” znak to: SP9KGP/m. Pracując z radia ręcznego (tzw. ręczniaka) łamiemy się przez /p, jak portable, działając z samochodu, poruszając się pojazdem mechanicznym /m, przebywając w innym okręgu, łamiemy się przez jego numer np. /8 dla ósmego okręgu. 
+
+Przebywając w innym kraju najpierw dajemy skrót/prefiks kraju z którego nadajemy, dla Czech to bedzie OK/, dla Niemiec DL/ itp. Można oczywiście łączyć wszystko, tworząc takie kwiatki jak OK/SQ8RK/p, gdy np. jest się w Czechach i pracuje z radia ręcznego.
+Dodatkowe sufixy warte wspomnienia:
+\begin{itemize}
+\item /mm - marine mobile, kutry, łodzie i inne pojazdy wodne
+\item /am - aerial mobile, zazwyczaj awionetka, lub szybowce\end{itemize}
+
+\section{Co to są znaki okolicznościowe?}
+Są to znaki nadawane na krótki okres (na przykład miesiąc) dla uczczenia jakiegoś wydarzenia lub osiągnięcia.
+Znak okolicznościowy uzyskuje się w UKE, tak jak każdy inny znak. 
+Warto dodać że uzyskanie znaku okolicznościowego to zmiana warunków naszego pozwolenia. Jeśli więc klub SP9KGP uzyska znak okolicznościowy HF2HS przez czas ważności znaku okolicznościowego NIE MOŻE posługiwać się znakiem własnym.
+
+\section{Czy mogę nadawać z mocą ``ile fabryka dała''?}
+Powinno się nadawać maksymalnie z mocą, podaną na pozwoleniu. Przy większych mocach nie ma większego zysku, wiec nawet nie ma sensu marnować prądu na to, żeby wytracał się na antenie ;) Lepiej zrobić dobrą antenę niż sugerować się mocą nadajnika.
+Łączność należy utrzymywać przy minimalnej mocy niezbędnej do komfortowej pracy. 
+
+\section{Co to jest SWR i dlaczego warto zwracać nie niego uwagę?}
+SWR to skrót od Standing Wave Ratio czyli po polsku Współczynnik Fali Stojącej (WFS). W dużym uproszczeniu, SWR mówi nam o niedopasowaniu impedancji nadajnika, linii zasilającej oraz anteny. Fala stojąca powstaje w linii zasilającej (kablu, fiderze zwał jak zwał), w wyniku niedopasowania impedancji falowej tejże linii do impedancji falowej anteny. Standardowo impedancja wynosi 50 Ohm, ale w wyniku różnych czynników takich jak np.: długość kabla, jakość złączy, jakość kabla impedancja linii zasilającej zmienia się. 
+
+Niedopasowanie powoduje, że nie cała energia wypromieniowana do fidera z radiotelefonu jest dostarczona do anteny. Część energii “wraca” do nadajnika co powoduje powstanie fali stojącej. Im wyższy SWR, tym więcej energii wraca do nadajnika a mniej energii jest wypromieniowane przez antenę. Energia wracająca do nadajnika powoduje nagrzewanie się stopnia wyjściowego nadajnika, co przy dużym niedopasowaniu i długim nadawaniu może spowodować jego przegrzanie się i uszkodzenie.
+
+W powyższych założeniach rozważaliśmy zmianę impedancji linii zasilającej, przy pracy nadajnika na częstotliwości rezonansowej anteny. Zmieniając częstotliwość nadawania, zmieniamy również impedancję anteny\footnote{\url{https://pl.wikipedia.org/wiki/Obwód_rezonansowy_LC}}.
+Do pomiaru SWR używa się urządzeń zwanych reflektometrami\footnote{\url{https://pl.wikipedia.org/wiki/SWR_meter}}, lub o wiele bardziej zaawansowanych analizatorów antenowych.
+Do prawidłowego pomiaru przydatne jest również sztuczne obciążenie. Dzięki niemu możemy najpierw przetestować linię zasilającą, następnie antenę na innym kablu co pozwala nam ocenić czy problem wynika z uszkodzenia fidera (kabla linii zasilającej), anteny czy złącz.
+
+\section{Dlaczego „jak nie wiesz co zrobić to zrób antenę”?}
+Anteny można podzielić do dookólne i kierunkowe. Im bardziej kierunkowa jest antena, tym ma większy zysk, bo więcej mocy jest wykorzystane do promieniowania fal radiowych w konkretnym kierunku. Na przykład dla anteny Yagi-Uda dodawanie elementów do anteny, zwiększa jej zysk energetyczny, a także kierunkowość.
+Policzmy - różnica pomiędzy 100W a 400W, czyli czterokrotny zysk mocy, to tylko dwukrotnie mocniejszy sygnał odbierany (+3dB), czyli tylko 1 punkt na s-metrze w radiu. 
+
+Zamiast używać nadajnika o większej mocy, możemy niewielkim kosztem zrobić antenę, która będzie miała zysk energetyczny. Zysk energetyczny jest to stosunek mocy promieniowania w danym kierunku naszej anteny do mocy anteny wzorcowej, którą najczęściej jest dipol (dBd) lub antena izotropowa (dBi). Zysk dipola jest większy w stosunku do anteny izotropowej o 2,15dB więc: 0dBd = 2,15dBi. Antena z zyskiem 3 dBd w danym kierunku emituje 2 razy więcej energii w niż dipol. W zależności od rodzaju anteny, można osiągnąć zysk energetyczny od kilku do nawet kilkudziesięciu dBd. W ten sposób dostarczając do anteny taką samą energię, możemy wyemitować dużo silniejszy sygnał w określonym kierunku.
+
+\section{Czy radia muszą mieć atesty, certyfikaty, zaświadczenia, świadectwa dopuszczenia?}
+Radioamatorzy jako jedyna grupa nadawców radiowych jest zwolniona z tego obowiązku. Dzięki temu możemy używać (a nawet powinniśmy) sprzętu - anten, nadajników, odbiorników własnej konstrukcji. Co bardziej ambitni mogą próbować używać naturalnych elementów otoczenia jako anteny. Znane są przypadki używania... karnisza jako anteny.
+
+\section{Jaka antena najlepsza na początek?}
+Najlepiej zaczynać z najprostszymi antenami, takimi jak prosty dipol półfalowy, pionowa ćwiartka (antena ćwierćfalowa), inverted vee (dipol w konfiguracji odwróconego V), a potem zabierać się za wielopasmowe anteny z trapami (filtrami LC odcinającymi sygnały powyżej danej częstotliwości), czy skomplikowanymi układami strojenia.
+
+Na pierwszą antenę warto wybrać antenę możliwie dookólną, szczególnie jeśli nie wiemy w jakim kierunku są okoliczne stacje. Może to zaoszczędzić frustracji po półgodzinnym, bezskutecznym kręceniu anteną w poszukiwaniu upragnionego kontaktu.
+W antenę warto zainwestować również przy okazji prób używania tzw RTL-SDR. Atrapy anten dołączane do zestawu nie dość, że są umieszczane blisko komputera który jest nielichym źródłem zakłóceń, to jeszcze są niedopasowane do interesujących nas częstotliwości.
+
+Na pasma UKF-owe bardzo chwalone i polecane są Yagi autorstwa DK7ZB\footnote{\url{http://dk7zb.darc.de}},, krótkie wersje można zrobić tanio i w dodatku bez większego nakładu pracy.
+
+\section{Co to jest ten KF/UKF?}
+KF czyli fale krótkie to częstotliwości od 1 do 30MHz.
+UKF to pasma od 30MHz do 1GHz.
+Powyżej są mikrofale.
+
+\section{Co z anteną, jeśli mieszkamy w bloku?}
+Przed instalacją koniecznie należy poinformować administratora budynku. Zazwyczaj nie mają nic przeciwko temu, że na bloku sobie wisi jakiś drut. Za to czasami w domkach jednorodzinnych jest większy problem z powodu nadwrażliwych sąsiadów ;)
+Jeśli mamy mieszkanie własnościowe to należy nam się dostęp do dachu. I nie ma że boli, że dach na gwarancji. Należy się i już.
+Do komina można montować maszt tylko za pomocą specjalnych opasek (bez ingerencji w strukturę komina). Maszt wraz z antenami nie powinien mieć więcej jak 3.0 m ponad poziom dachu (przepisy budowlane zezwalają na maszty do 3 metrów bez pozwolenia). Wyższe maszty powinny być wyposażone w odciągi oraz wymagają zgłoszenia w odpowiedniej instytucji.
+
+\section{Czy metalowy balkon nie jest przypadkiem przeszkodą?}
+Po odpowiednim dystansowaniu anteny (więcej niż 1/4 fali) nie będzie on przeszkadzał. Inaczej balkon robi za dodatkowy element anteny, który niekoniecznie musi nam pomagać.
+
+\section{Jaki jest koszt całej imprezy?}
+W zależności od potrzeb. Można zacząć od zabawy w „nasłuchowca” kupując „RTLSDR” za kilkadziesiąt złotych, można zacząć od prostego radia ręcznego w okolicach 200zł. Jeśli ktoś nie jest fanem wstęg, to można kupić dobre i wydajne radio jedno, bądź kilkupasmowe za mniej niż 1000zł. Z tzw. allbanderami (urządzenie obsługujące kilka pasm amatorskich, zwykle z zakresu 160m-70cm) sytuacja jest już troszkę mniej kolorowa, gdyż za nowy sprzęt trzeba czasami wydać od 3, do nawet 30 tysięcy złotych za sprzęt dla najbardziej wymagających radioamatorów. Na szczęście w środowisku można znaleźć osoby, które sprzedają używany sprzęt za sensowne pieniądze.
+Całość kosztów administracyjnych to: 50zł opłaty za egzamin + 25zł za wydanie świadectwa radiooperatora + 82zł za wyrobienie i wydanie pozwolenia radiowego. I koszt znaczków, ponieważ część dokumentów trzeba wysłać do Warszawy.
+
+\section{Czy egzamin jest trudny?}
+Nie, baza pytań jest ogólnodostępna, a większość odpowiedzi jest możliwa do wydedukowania. Pytania różnią się poziomem, ale większość z nich jest raczej ogólna niż szczegółowa.
+
+\section{Gdzie można znaleźć pytania do egzaminu?}
+Pytania do egzaminu można pobrać na stronie UKE\footnote{\url{http://www.uke.gov.pl/swiadectwa-w-sluzbie-radiokomunikacyjnej-amatorskiej-4390}}.
+
+\section{Co to jest stacja automatyczna?}
+Stacja automatyczna, to rodzaj radiostacji, do której obsługi nie jest potrzebny człowiek (najwyżej do nadzoru). Zazwyczaj są to przemienniki, stacje meteorologiczne, balony różnej maści, czy eksperymenty. Taka stacja może dostać licencje kategorii piątej, znak zaczynający się prefiksem SR i maksymalną mocą nadawania poniżej 30 MHz - 50 W, a powyżej 10 W.
+Stacje automatyczną można uruchomić na okres testowy do trzech miesięcy pod własnym znakiem.
+
+\section{Czym różni się pozwolenie radiowe od świadectwa radiooperatora?}
+Świadectwo radiooperatora świadczy o posiadaniu umiejętności w zakresie obsługi stacji radioamatorskiej, jest to dokument wydawany po zdanym egzaminie, nie uprawnia nas on jednak jeszcze do nadawania. Świadectwo jest wydawane dożywotnio i jest konieczne do uzyskania pozwolenia radiowego, dzięki któremu uzyskujemy możliwość nadawania na pasmach krótkofalarskich. Pozwolenie radiowe jest dokumentem uprawniającym nas do nadawania, wydawane jest zwykle na okres 10 lat, zawiera w szczególności nasz znak wywoławczy, lokalizację stacji i dane operatora.
+
+\section{A jeśli zmieniam miejsce zamieszkania, to co?}
+UKE bezpłatnie zmienia adres lub inne dane na pozwoleniu. Wystarczy przejść się z odpowiednio wypełnionym wnioskiem do najbliższej siedziby Urzędu Komunikacji Elektronicznej.
+
+\section{Jaka jest prawidłowa procedura uzyskiwania świadectwa radiooperatora?}
+Po pierwsze należy zapisać się na odpowiednią sesję egzaminacyjną, dokonać opłaty za egzamin i wydanie świadectwa radiooperatora. Następnie należy podejść do egzaminu, zdać go i czekać na otrzymanie świadectwa.
+
+\section{A jak w prawidłowy sposób uzyskać pozwolenie radiowe?}
+Gdy mamy świadectwo, należy wnieść opłatę za wydanie pozwolenia radiowego oraz udać się z wnioskiem o wydanie takiego do delegatury UKE. Na wniosku możemy (odręcznie czy to dodatkową notatką) poprosić o przyznanie konkretnego (nieprzydzielonego jeszcze) znaku wywoławczego. Trzeba pamiętać że nasza notatka to jedynie sugestia. Urząd nie ma obowiązku uwzględnienia naszej prośby. Następnie należy zaczekać na otrzymanie pozwolenia radiowego i od daty zawartej w pozwoleniu możemy w pełni legalnie działać na odpowiednich pasmach amatorskich.
+
+\section{Czy mogę używać radia bez pozwolenia?}
+Są wydzielone pasma, jak PMR, czy CB nie wymagające pozwolenia radiowego, ale są one regulowane innymi zasadami. Należy pamiętać że nie są to pasma amatorskie i uzyskanie pozwolenia radiowego nie uprawnia nas do nadawania na nich z większą mocą czy z własnoręcznie wykonanego sprzętu. Na pasmach amatorskich trzeba koniecznie posiadać licencje do nadawania.
+
+\section{Czym różnią się pasma amatorskie od PMR, CB i innych ogólnodostępnych?}
+Radioamatorzy mogą nadawać z dużo mocniejszego sprzętu, zwykle mają znacznie lepsze anteny, mają do dyspozycji wycinki częstotliwości w praktycznie każdym fragmencie pasma.
+Od doboru pasma zależy m.in. możliwy i oczekiwany zasięg naszej komunikacji. Pasma PMR i CB to pasma jedynie z ograniczeniem klasy (w tym mocy i generalnie parametrów) sprzętu. Praktycznie nie działają tam zasady radiooperatorskie, często można też doświadczyć dużo niższego poziomu prowadzonych rozmów czy braku wzajemnego szacunku między operatorami. Zaletą pasm ogólnodostepnych jest głównie brak konieczności posiadania pozwolenia radiowego na korzystanie z nich.
+
+\section{Co to jest klub radioamatorski?}
+Klub krótkofalarski, jest to jak nazwa wskazuje, organizacja skupiająca krótkofalowców ;) Są to stacje, gdzie operatorem może być każdy (oczywiście pod nadzorem operatora klubowego). Kluby często posiadają specjalistyczny sprzęt pomiarowy, wyczynowe anteny, czy bardziej zaawansowane radia. Klubowicze często pomagają sobie wzajemnie m.in. przy budowanie nadajników, anten, przy regulacji sprzętu, wykonują wzajemne łączności,…
+Kluby mają znaki zaczynające się na SP, a pierwszą literą jest P, dla klubów Polskiego Związku Krótkofalarskiego i K dla pozostałych.
+
+\section{Jakie są zasięgi sprzętu amatorskiego?}
+Samo słowo “zasięg sprzętu” jest trochę niefortunnym określeniem, gdyż samo to “gdzie się dociera” zależy od wielu czynników, takich jak pogoda, warunki propagacyjne, pora dnia, moc nadajnika, skuteczność modulacji sprzętu, zysk anteny i wiele innych czynników. Nawet takie niby niepozorne rzeczy, jak promieniowanie słoneczne, czy mgła mogą znacząco wpłynąć na poprawę, czy pogorszenie “zasięgu”.
+Na dodatek zawsze w łączności są dwie stacje. To, że z domowej anteny z mocą 50W da się zrobić łączność z kimś z Tarnowa, kto ma również dobrą antenę nie znaczy że da się taką samą łączność zrobić z kimś kto ma ręczniaka z małą antenką. 
+
+Dla bardzo wielkiego uproszczenia (mówimy oczywiście o UKF-ie):\\
+ręczniak $\Leftrightarrow$ ręczniak 1 - 10 km\\
+ręczniak $\Leftrightarrow$ baza 5 - 30 km\\
+samochód $\Leftrightarrow$ samochód 10 - 30 km\\
+baza $\Leftrightarrow$ baza 50 - 150 km \\
+
+W optymalnych warunkach przemiennik może zwiększyć ten zasięg dwukrotnie.
+W wypadku podniesionych warunków propagacyjnych da się przeprowadzić łączności Krakowa z Warszawą albo usłyszeć stacje np. z Kaliningradu.
+Na falach krótkich (1,8-30MHz) zasięgi łączności wahają się od kilkuset kilometrów do całego świata. 
+
+\section{O co chodzi z „warunkami” na pasmach?}
+Jonosfera nie zachowuje się cały czas tak samo. Czasem fala odbija się lepiej innym razem gorzej. Czasem tłumienie trasy czyli strata sygnału po drodze jest większa a czasem mniejsza. 
+Sporo zależy też od aktywności słońca.
+
+\section{Jak zacząć przygodę z nasłuchem czyli RTLSDR?}
+Historia RTLSDR wygląda mniej więcej tak: podczas pisania linuksowego sterownika dla rtl28832 i podobnych okazało się, że moduł ten udostępnia znacznie więcej danych z odbiornika niż można by oczekiwać od odbiornika telewizji naziemnej. Napisano więc „sterownik” (nie jest to sterownik ładowany do jądra, ale specjalny, userlandowy wykorzystujący bibliotekę libusb), który potrafi odebrać i zinterpretować dane z niego. W ten sposób uzyskano bardzo tani odbiornik „SDR” (Software Defined Radio).
+
+Główną zaletą tego typu odbiorników jest to, że całość demodulacji wykonujemy programowo. Jeśli nagle chcemy odebrać coś w modulacji AM - nie ma problemu. Chcemy posłuchać SSB? Nie ma problemu. Chcemy zobaczyć jakie dane wysyła nasz licznik wody czy pilot od bramy garażowej? Nie ma problemu - wystarczy tylko odpowiedni kawałek oprogramowania.
+Na początek przygody z rtlsdr bardzo polecam zapoznanie się z systemem ADS-B używanym w lotnictwie. Istnieją bardzo dobre programy umożliwiające demodulację tych sygnałów, w dodatku nadajniki są bardzo korzystnie rozlokowane (w samolotach), więc wystarczy nam dość prosta antena aby odbierać sygnały z obszaru wielu kilometrów! Na początek jest to bardzo satysfakcjonujące zajęcie.
+Ważną rzeczą przy korzystaniu z rtlsdr jest pamiętanie o używaniu odpowiednich anten. Atrapy anten dołączane do zestawu zwykle średnio nadają się nawet do drapania za uchem, a co dopiero do odbierania jakichkolwiek sensownych sygnałów. Nawet najprostszy kawałek drutu uformowany w tzw. dipol półfalowy (brzmi groźnie, ale to naprawdę jest kawałek drutu) pozwoli nam na dużo szybsze odnalezienie sygnałów w otaczającym paśmie.
+
+Drugą ważną rzeczą jest to że te odbiorniki zwykle charakteryzują się stosunkowo małą czułością i sytuacje kiedy sprzęt klasy amatorskiej odbiera daną transmisję bardzo dobrze, zaś rtlsdr ledwo „łapie” są niestety dość częste. Na szczęście można kupić odbiorniki (czy nawet nadajniki) SDR charakteryzujące się bardzo dobrymi parametrami - są nawet projekty używające tego typu urządzeń do tworzenia własnych sieci GSM!
+
+Techniczne aspekty używania SDR-ów zasługują na osobny artykuł, więc żeby nie przedłużać wspomnimy tylko o kilku najważniejszych rzeczach: silny sygnał pojawiający się na środku analizowanego wycinka pasma to niestety, zwykle szum własny odbiornika, nie należy liczyć na „czysty” odbiór w jego okolicy - lepiej dostroić się do częstotliwości gdzieś obok, a później tylko wyciąć interesujący nas kawałek. Warto wspomnieć o słabej, fabrycznej kalibracji odbiorników rtlsdr. Kalibrację jednak można wykonać bardzo łatwo (m.in. do znanych częstotliwości nadajników GSM). Do korzystania z rtlsdr należy wyładować/pozbyć się domyślnych sterowników obsługujących odbiornik jak tuner TV. Sterowniki SDR same zatroszczą się o poprawną obsługę sprzętu.
+Z nazewnictwa „wodospad” to „wykres widma w czasie”, a tłumacząc „z polskiego na nasze” to rysunek gdzie możemy zobaczyć (zwykle silniejszym, zbliżającym do czerwieni, kolorem) na jakiej częstotliwości pojawiały się w ciągu ostatnich kilkudziesięciu sekund sygnały.
+
+\section{Czy mogę nasłuchiwać bez użycia RTLSDR?}
+Odbiorniki bez nadawania to tzw. skanery. Wszelkiej maści urządzenia które są jedynie odbiornikami można używać bez większych ograniczeń. Nie wolno używać urządzeń posiadających możliwość nadawania bez pozwolenia. Oczywiście temat „czy można słuchać służb” i innych pasm nieprzeznaczonych dla cywili zasługuje na osobne rozważania, które poruszamy w innym pytaniu.
+
+\section{Co to jest WebSDR, czy mogę go użyć i jak to zrobić?}
+WebSDR\footnote{\url{http://websdr.org/}} to technologia dzięki której można udostępnić swój odbiornik SDR wielu użytkownikom, zwykle przez Internet. Ciekawostką jest to że z jednego odbiornika może korzystać wielu użytkowników tak, że każdy z nich słucha innej częstotliwości. Dzieje się tak ponieważ odbiorniki SDR zwykle są w stanie słuchać na tyle szerokiego pasma że zawiera ono w sobie wiele kanałów komunikacyjnych, a każdy z użytkowników może „dostroić” się (czyli wyciąć) do interesującego go wycinka pasma czy pojedynczego kanału z interesującą go modulacją. W linku można znaleźć listę serwerów WebSDR, w Polsce znajdują się serwery w Zielonej Górze\footnote{\url{http://websdr.sp3pgx.uz.zgora.pl:8901/}} i w Dubiecku, który na tę chwilę jest wyłączony.
+
+
+\section{Gdzie znaleźć rozszyfrowane skróty używane przez radioamatorów?}
+Skróty kodu Q i slang można znaleźć w artykule na Wikipedii\footnote{\url{http://pl.wikipedia.org/wiki/Kod_Q}}, całej reszty można się nauczyć słuchając, czy po prostu pytając. Krótkofalowcy to naprawdę mili ludzie. Ewentualnie możemy posiłkować się oficjalnymi dokumentami pierwszego regionu IARU nazwanego “HF Manager Handbook” w wersji najnowszej - można go zawsze znaleźć na stronach IARU\footnote{\url{http://www.iaru-r1.org/}}.
+
+\section{Mam radio, mam pozwolenie, jaką częstotliwość wpisać w radiu?}
+A na jakie pasmo masz radio?
+Jeśli na 2m to zacznij od 145.550 to taka trochę krakowska częstotliwość wywoławcza. Wołają tam też stacje z gór (m.in. w programie SOTA) (głównie w lecie). Na częstotliwości 145.500 są zwykle łączności typu DIRECT czyli bezpośrednie pomiędzy stacjami. Jeśli masz zdrowie do słuchania gadania o niczym to polecamy okoliczne przemienniki.
+
+\section{Co to jest AM, FM, CW, SSB, USB, LSB,…?}
+\begin{itemize}
+\item AM to modulacja amplitudy - do częstotliwości nośnej dodawana jest częstotliwość sygnału modulowanego. 
+\item SSB to modulacje jednowstęgowe (LSB i USB) są tworzone przez tłumienie nośnej i odpowiedniej dla danej modulacji wstęgi bocznej. 
+\item FM to modulacja, gdzie wraz z amplitudą sygnału zmienia się częstotliwość nadawanego sygnału. 
+\item CW to przerywanie fali nośnej, którym nadaje się alfabet Morse'a. \end{itemize}
+
+
+\section{Co to są transmisje cyfrowe i jak bardzo mam się tym przejmować?}
+To zależy czy cyfrówki Cię wciągną. 
+Na UKF-ie prawie się nie używa emisji cyfrowych. 
+Na falach krótkich jest SSTV czyli wysyłanie obrazków. Wymaga to praktyki operatorskiej ale daje masę radości. Są też RTTY i PSK31 i trzeba wspomnieć że zwłaszcza PSK jest diablo skuteczna. To czego się nie zaliczy na fonii, cyfrowo wpada z niezłymi raportami. 
+Jak masz ciśnienie na zaliczanie podmiotów DXCC albo żonę która ma już dość szumu w domu, to cyfrówki są alternatywą.
+
+SSTV-owcy to strasznie zamknięte kółeczko - ciężko się wbić. Jeśli chcesz zrobić Japonię, lub inny dalszy kraj małą mocą, to warto zainteresować się JT65 - bardzo skuteczne rozwiązanie. Na KF-ie jest sporo miłośników emisji cyfrowych - jest to w sumie jedyna możliwość, jeśli interesuje kogoś pasmo 30m, a z telegrafii słabo mu idzie. Poza tym są stałe częstotliwości - 7040-7050, 14076-14090, 18100-18105, 21076-21090 i tak dalej - wszystko jest do znalezienia w bandplanie regionu 1 IARU.
+
+\section{Co to jest bandplan?}
+Bandplan to jest podział pasm na części, w których powinno się nadawać odpowiednią modulacją, z odpowiednią mocą, czy robiąc dalekie łączności. Jest to jasno określone przy każdym wycinku pasma. 
+Polski bandplan, jest identyczny, jak dla pierwszego regionu IARU (świat jest podzielony na trzy części - pierwsza to Europa, północna Azja, Afryka i Bliski Wschód, drugi to obydwie Ameryki, a trzecia to pozostała część Azji i kraje leżące na Pacyfiku (Australia, Nowa Zelandia, różnorakie wyspy).
+
+\section{Czy przez radio mogę wysyłać dane i jeśli tak to jak?}
+Oczywiście. Istnieje 'Packet Radio', czyli łączności z wykorzystaniem protokołu AX.25, stosowane raczej na pasmach UKF-owych do przesyłania krótkich części danych.
+Jest APRS.
+Jest też PSKmail.
+Istnieje także HAMNet ale u nas praktycznie nieaktywny.
+
+\section{Co to jest APRS?}
+APRS czyli automatyczny system raportowania pozycji to system pozwalający na informowanie o bieżącym położeniu stacji amatorskich. W wysyłanej ramce można zamieścić krótki opis, położenie oraz typ stacji (stała, ruchoma, przenośna itd). Wykorzystywany jest głównie w samochodach choć nie tylko. Poza standardowymi stacjami na APRS-ie można też znaleźć dodatkowe punkty informujące o lokalnych przemiennikach, stacje pogodowe wraz z danymi z tych stacji, telemetrię balonów meteorologicznych, informacje o zagrożeniach itd. 
+Poza tym przy pomocy APRS-u można wysyłać sobie wiadomości podobne do SMS-ów.
+Całość oparta jest o protokół AX25 i działa zazwyczaj na częstotliwości 144,800MHz. Istnieją częstotliwości APRS m.in. również w paśmie 70cm.
+Do działania potrzebne jest zwykłe radio FM na pasmo 2m oraz modem, TNC lub tracker. 
+Pewną namiastką jest program na Androida o nazwie APRSdroid, który potrafi korzystać z APRS-u po TCP/IP lub odbierać i generować ramki audio.
+Dane z APRS-u można oglądać w internecie na stronie aprs.fi
+
+\section{A o co chodzi z tymi satelitami?}
+Istnieje wiele satelitów, które posiadają przemienniki liniowe, lub FM. Można przez nie nawiązywać łączności z zachowaniem odpowiednich norm (nadawanie małą mocą, wąska modulacja itp.). Jest to pewien rodzaju sportu wśród radioamatorów.
+
+\section{Co to jest EME?}
+EME (Earth-Moon-Earth), to łączności polegające na odbijaniu sygnału od powierzchni księżyca. Wymagają one rozbudowanych anten (długie Yagi) i dużych mocy, by można było chociaż ułamek mocy usłyszeć znów na Ziemi. Używa się do tego zazwyczaj wolnej telegrafii i transmisji cyfrowych (JT-65).
+
+\section{O czym nie należy rozmawiać na radiu a co jest mile widziane?}
+Zdecydowanie odpada polityka i religia. Chodzi po prostu o nie wywoływanie niepotrzebnych dyskusji. Trollowanie nie jest niemile widziane więc jeśli zaczniesz i wyrobisz sobie opinie trolla po prostu ludzie zaczną Cię ignorować.
+Skoro jest to służba radioamatorska, to powinno się rozmawiać właśnie na takowe tematy - sprzęt, łączności itp. Oczywiście nie są zabronione dyskusje na tematy ogólne - powinno się pomijać tematy delikatne, tabu i obraźliwe - kultura osobista również jest wskazana. Nie każdy chce dowiedzieć się o Twoich problemach zdrowotnych, czy opcji politycznej.
+
+\section{Co to jest grupa i jak należy „wymieniać się mikrofonem”}
+Każdorazowo na zakończenie swojej relacji powinniśmy podać znak korespondenta i swój. Tak jest teoretycznie. Często traktujemy to mniej restrykcyjnie ale kiedy rozmawia na jednej częstotliwości kilka osób przekazywanie mikrofonu staje się koniecznością. Chodzi o to żeby pozostali wiedzieli kto teraz może się odezwać inaczej powstają konflikty co kończy się wymiksowaniem sygnałów w niezrozumiały bełkot. Słowo ‘grupa’ w takim wypadku jest sygnałem dla słuchających że jest większe grono rozmówców niż tylko stacje których znaki zostały wymienione.
+
+\section{Co to jest łączność kryzysowa, emcom? Dlaczego krótkofalarstwo to „służba” i jak powinniśmy wykorzystywać radia w sytuacjach kryzysowych?}
+W przypadku wystąpienia nagłego bądź długotrwałego zdarzenia kryzysowego, radioamatorzy mogą okazać się jedynym środkiem, dzięki któremu najbliższe sąsiedztwo, lokalna społeczność będą w stanie przekazać informacje np. o potrzebie pilnej pomocy medycznej, pożarze czy innej sytuacji, która wymaga interwencji służb ustawowo powołanych do niesienia pomocy. W takich sytuacjach, radioamatorzy stanowią alternatywne medium przekazu informacji. W czasie, gdy pozostali obywatele mogą być pozbawieni kontaktu, radioamatorzy są w stanie zapewnić łączność nawet wtedy, gdy na skutek zdarzeń kryzysowych uszkodzeniu ulegną komercyjne systemy telekomunikacyjne, takie jak telefonia stacjonarna, komórkowa czy Internet. 
+
+W Polsce radioamatorzy ćwiczą scenariusze sytuacji kryzysowych organizowane przez SP EmCom\footnote{\url{http://emcom.pzk.org.pl}}, komórkę organizacyjną ds. łączności kryzysowej PZK. Najbardziej znana jest Dolnośląska Amatorska Sieć Ratunkowa, która okazała się w wielu miejscach jedynym środkiem łączności ze 
+światem podczas powodzi w 1997 r.
+
+\section{Czy i gdzie mogę posłuchać prognozy pogody?}
+W Krakowie na 126.125 w modulacji AM. Należy pamiętać, że ta częstotliwość jest poza pasmem amatorskim i można jej jedynie słuchać, bez nadawania.
+Pogodę można sprawdzić również po APRS-ie, albo korzystając ze stacji zwanych SR0WX, które nadają okresowo komunikat głosowy z pogodą.
+
+\section{Czy można słuchać samolotów?}
+Można. Mało to ciekawe na dłuższą metę ale można.
+
+\section{Czy można słuchać służb mundurowych?}
+Technicznie słuchać można wszystkiego. Za to informacji zasłyszanych na pasmach innych niż amatorskie/ogólnodostępne nie wolno rozpowszechniać ani wykorzystywać. Jednak jeśli transmisja jest szyfrowana nie wolno jej odszyfrowywać.
+
+\section{Czy mając licencję będę mógł postawić własnego BTS-a lub wskrzesić pagery?}
+Generalnie nie można uruchamiać typowych nadajników GSM czy stacji bazowych dla pagerów na pasmach krótkofalarskich, ale da się stworzyć analogiczne urządzenia dopasowane do zasad i częstotliwości panujących na pasmach amatorskich. Przede wszystkim należy pamiętać o konieczności identyfikacji znakiem wywoławczym oraz o tym że taka sieć/system będzie mogła być używana jedynie niekomercyjnie i tylko przez krótkofalowców. Oczywiście doświadczenie w pracy na pasmach amatorskich może później przydać się przy pracy przy komercyjnych systemach.
+
+\section{Gdzie można znaleźć więcej źródeł informacji o służbie radioamatorskiej?}
+Zapewne forum SP7PKI\footnote{\url{http://sp7pki.iq24.pl}} i strona PZK\footnote{\url{http://pzk.org.pl}}, będą dobrymi miejscami, żeby znaleźć na nie odpowiedzi. Można także dobijać się do nas na kanale \#kf na irc.pirc.pl, oraz \#hackerspace-krk na irc.freenode.net, oraz na \#hamradio na tymże serwerze, lub na ircnecie. Można także osobiście wołać autorów tego dokumentu.
+
+
+
+\end{document}
