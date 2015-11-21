@@ -10,7 +10,7 @@
 \usepackage{authblk}
 \usepackage{url}
 \usepackage{float}
-\usepackage[a4paper, left=2 cm, right=2 cm, top=3cm, bottom=3cm,]{geometry}
+\usepackage[a4paper, left=2 cm, right=2 cm, top=3cm, bottom=2.5cm,]{geometry}
 \hypersetup{colorlinks=true, linkcolor=black, urlcolor=black}
 \usepackage{secdot}
 \title{\textbf{FAQ - Często zadawane pytania przez przyszłych i początkujących radioamatorów}}
@@ -99,15 +99,17 @@ Aplikacje klienta EchoLink dostępne są na wszystkie systemy operacyjne, także
 Istnieje także możliwość wypożyczenia od kogoś konta EchoLink, jeśli nie mamy licencji, ale tylko w celu nasłuchu, nie możemy nic nadawać. To jest dobre, jeśli chcemy posłuchać i “obyć się” z protokołem krótkofalarskim czyli tzw. „operatorką”, a w dodatku nie wymaga to posiadania innego sprzętu niż komputer.
 
 \section{Co to jest znak wywoławczy i gdzie mogę sprawdzić listę przyznanych znaków?}
-Znak wywoławczy to unikalny na cały świat skrót składający się z od 4 do 6 znaków, lub nawet do 8 znaków (dla stacji okolicznościowych). Składa się z prefiksu (dwa znaki alfanumeryczne - dla Polski to SP, SQ, SR, SO, SN, 3Z, HF), numeru okręgu (dla Polski od 1 do 9) i sufiksu (1-4 liter, a dla stacji okolicznościowych, nawet do 5).
+Znak wywoławczy to unikalny na cały świat identyfikator stacji radiowej, składający się z od 4 do 8 znaków.  
 Dość często aktualizowaną listę wydanych pozwoleń można znaleźć w arkuszu od UKE\footnote{\url{http://www.uke.gov.pl/pozwolenia-radiowe-oraz-decyzje-zmieniajace-pozwolenia-radiowe-w-sluzbie-radiokomunikacyjnej-amatorskiej-8753}}.
 
 
 \section{Jakie są zasady wydawania znaków wywoławczych?}
-Aktualnie znak wywoławczy jeśli jest wolny to można sobie wybrać, kiedyś wydawano je po kolei. Jedynym zastrzeżonym formalnie prefiksem jest SR - zarezerwowany dla pozwoleń kategorii 5 - stacjom automatycznym (stacjom pogodowym, beaconom, przemiennikom). Prefiksy 3Z, HF i SN zazwyczaj używane są w znakach stacji okolicznościowych i tak są postrzegane na świecie - jednak nie ma żadnych obostrzeń co do ich wyboru.
+Aktualnie znak wywoławczy jeśli jest wolny to można sobie wybrać, kiedyś wydawano je po kolei.
+Znakwczy składa się z prefiksu (dwa znaki alfanumeryczne - dla Polski to SP, SQ, SR, SO, SN, 3Z, HF), cyfry od 0 do 9 oraz sufiksu składającego się z 1-4 znaków z czego ostatni jest literą. Tradycyjnie cyfra pomiędzy prefiksem a sufiksem oznacza okręg wywoławczy, jednak nie jest to wymagane.
 
 \section{Co to jest okręg wywoławczy?}
-Okręg wywoławczy jest to obszar (konkretnie dla polski - obejmujący kilka województw) ułatwiający zlokalizowanie operatora w danej części kraju. W tym momencie przydział konkretnego numerka ma mniejsze znaczenie formalne niż kiedyś. Możliwe są sytuacje w której operator przenosi stację między okręgami, ale ze względów sentymentalnych pozostawia się mu znak z poprzedniego okręgu. Więcej informacji o identyfikacji stacji można znaleźć tutaj\footnote{\url{http://www.sp5zba.net/?identyfikacja-radiostacji-amatorskich,46}}. 
+Formalnie, od kilku lat nie ma podziału Polski na okręgi wywoławcze. Podział jest jedynie tradycyjny.
+Okręg wywoławczy jest to obszar (konkretnie dla polski - obejmujący kilka województw) ułatwiający zlokalizowanie operatora w danej części kraju. W tym momencie przydział konkretnego numerka ma mniejsze znaczenie formalne niż kiedyś. Możliwe są sytuacje w której operator przenosi stację między okręgami, ale ze względów sentymentalnych pozostawia się mu znak z poprzedniego okręgu. 
 \begin{figure}[h]
  \centering
  \includegraphics[width=150pt]{./Polish_HAM_Radio_Regions.png}
@@ -124,9 +126,10 @@ Dodatkowe sufixy warte wspomnienia:
 \item /am - aerial mobile, zazwyczaj awionetka, lub szybowce\end{itemize}
 
 \section{Co to są znaki okolicznościowe?}
+Formalnie chodzi o pozwolenie dodatkowe. 
 Są to znaki nadawane na krótki okres (na przykład miesiąc) dla uczczenia jakiegoś wydarzenia lub osiągnięcia.
-Znak okolicznościowy uzyskuje się w UKE, tak jak każdy inny znak. 
-Warto dodać że uzyskanie znaku okolicznościowego to zmiana warunków naszego pozwolenia. Jeśli więc klub SP9KGP uzyska znak okolicznościowy HF2HS przez czas ważności znaku okolicznościowego NIE MOŻE posługiwać się znakiem własnym.
+Znak dodatkowy uzyskuje się w UKE, tak jak każdy inny znak. Pozwolenie dodatkowe funkcjonuje
+równolegle z podstawowym - w trakcie pracy można korzystać zarówno z pozwolenia podstawowego jak i dodatkowego.
 
 \section{Czy mogę nadawać z mocą ``ile fabryka dała''?}
 Powinno się nadawać maksymalnie z mocą, podaną na pozwoleniu. Przy większych mocach nie ma większego zysku, wiec nawet nie ma sensu marnować prądu na to, żeby wytracał się na antenie ;) Lepiej zrobić dobrą antenę niż sugerować się mocą nadajnika.
@@ -143,7 +146,7 @@ Do prawidłowego pomiaru przydatne jest również sztuczne obciążenie. Dzięki
 
 \section{Dlaczego „jak nie wiesz co zrobić to zrób antenę”?}
 Anteny można podzielić do dookólne i kierunkowe. Im bardziej kierunkowa jest antena, tym ma większy zysk, bo więcej mocy jest wykorzystane do promieniowania fal radiowych w konkretnym kierunku. Na przykład dla anteny Yagi-Uda dodawanie elementów do anteny, zwiększa jej zysk energetyczny, a także kierunkowość.
-Policzmy - różnica pomiędzy 100W a 400W, czyli czterokrotny zysk mocy, to tylko dwukrotnie mocniejszy sygnał odbierany (+3dB), czyli tylko 1 punkt na s-metrze w radiu. 
+Policzmy - różnica pomiędzy 100W a 400W, czyli czterokrotny zysk mocy, to tylko dwukrotnie mocniejszy sygnał odbierany (+6dB), czyli tylko 1 punkt na s-metrze w radiu. 
 
 Zamiast używać nadajnika o większej mocy, możemy niewielkim kosztem zrobić antenę, która będzie miała zysk energetyczny. Zysk energetyczny jest to stosunek mocy promieniowania w danym kierunku naszej anteny do mocy anteny wzorcowej, którą najczęściej jest dipol (dBd) lub antena izotropowa (dBi). Zysk dipola jest większy w stosunku do anteny izotropowej o 2,15dB więc: 0dBd = 2,15dBi. Antena z zyskiem 3 dBd w danym kierunku emituje 2 razy więcej energii w niż dipol. W zależności od rodzaju anteny, można osiągnąć zysk energetyczny od kilku do nawet kilkudziesięciu dBd. W ten sposób dostarczając do anteny taką samą energię, możemy wyemitować dużo silniejszy sygnał w określonym kierunku.
 
