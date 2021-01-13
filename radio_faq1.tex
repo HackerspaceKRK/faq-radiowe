@@ -362,8 +362,13 @@ W przypadku wystąpienia nagłego bądź długotrwałego zdarzenia kryzysowego, 
 W Polsce radioamatorzy ćwiczą scenariusze sytuacji kryzysowych organizowane przez SP EmCom, komórkę organizacyjną ds. łączności kryzysowej PZK. Najbardziej znana jest Dolnośląska Amatorska Sieć Ratunkowa, która okazała się w wielu miejscach jedynym środkiem łączności ze światem podczas powodzi w 1997 r.
 
 \section{Czy i gdzie mogę posłuchać prognozy pogody?}
-W Krakowie na 126,125 w modulacji AM. Należy pamiętać, że ta częstotliwość jest poza pasmem amatorskim i można jej jedynie słuchać, bez nadawania.
-Pogodę można sprawdzić również po APRS-ie, albo korzystając ze stacji o suffiksach WX, np. SR0WX, które nadają okresowo komunikat głosowy z pogodą.
+W Krakowie na częstotliwości 144,950 nadaje stacja pogodowa SR9WXR w modulacji FM. Jest ona w pełni automatyczna i co 15 minut nadaje pełne raporty pogodowe z takimi danymi jak zachmurzenie, temperatura, ciśnienie, wilgotność, prędkość wiatru, itd. Dodatkowo, stacja podaje również informacje o jakości powietrza w regionie oraz o warunkach propagacyjnych na różnych pasmach radiowych.
+
+Stacja ta jak i wiele innych pogodowych stacji automatycznych używa ujednoliconego oprogramowania SR0WX\footnote{\url{https://github.com/sq9atk/sr0wx}} i jeśli nie jesteś z Krakowa, jest bardzo możliwe że w Twoim regionie również nadaje taka sama stacja, prawdopodobnie na podobnej częstotliwości.
+
+Warto tutaj zaznaczyć, że sporo radiotelefonów - zazwyczaj ręcznych - ma w swoim menu opcję w rodzaju ,,weather alert'' lub ,,wx alert''. Działa to na takiej zasadzie, że radio albo wykorzystuje swój drugi odbiornik (jeśli taki ma), albo co jakiś czas przy braku odbieranych transmisji przełącza się na określoną w ustawieniach częstotliwość by sprawdzić, czy nie nadawany jest komunikat pogodowy. Jednakże, ta funkcja jest przystosowana w większości przypadków tylko do sytuacji w których przed raportem pogodowym nadawany jest na częstotliwości specjalny sygnał który nakazuje odbiornikowi nasłuchiwać dana stację. Taki sygnał nadają głównie profesjonalne stacje pogodowe, na przykład działające w ramach amerykańskiego NOAA. W Polsce ten standard nie jest generalnie wykorzystywany, wobec czego funkcja ,,wx alert'' nie zadziała z naszymi stacjami SR0WX lub podobnymi.
+
+Pogodę można sprawdzić również po APRS-ie, większość radiotelefonów z obsługą tego systemu ma w swoim interfejsie ustawienia dot. przyjmowania informacji pogodowych.
 
 \section{Czy można słuchać samolotów?}
 Można. Mało to ciekawe na dłuższą metę, ale można.
