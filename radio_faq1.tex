@@ -64,6 +64,10 @@ Na początek najlepszym “starter kit-em”, który pozwala na lokalną łączn
 \section{Co to w ogóle jest to „pasmo”?}
 Pasmo to po prostu jasno określony zakres częstotliwości. Często podawana jest długość fali np. pasmo 2 m to zakres częstotliwości od 144,000 MHz do 146,000 MHz.
 
+\section{Co to jest bandplan?}
+Bandplan to jest podział pasm na części, w których powinno się nadawać odpowiednią modulacją, z odpowiednią mocą, czy robiąc dalekie łączności. Jest to jasno określone przy każdym wycinku pasma. 
+Polski bandplan, jest identyczny, jak dla pierwszego regionu IARU (świat jest podzielony na trzy części - pierwsza to Europa, północna Azja, Afryka i Bliski Wschód, drugi to obydwie Ameryki, a trzecia to pozostała część Azji i kraje leżące na Pacyfiku (Australia, Nowa Zelandia, różnorakie wyspy). Należy zaznaczyć, że bandplan to nie jest prawo to raczej społeczna umowa, której powinniśmy przestrzegać aby żyło nam się lepiej. 
+
 \section{Jaki jest zasięg pasm (propagacja)?}
 Niższe pasma (80 m, 40 m) bardziej nadają się na łączności lokalne, lecz przy dobrych warunkach pozwalają również na DX-y. Pasmo 20 m jest chyba najoptymalniejsze dla dalekich łączności, lecz nie nadaje się do lokalnych rozmów. Wyższe pasma (powyżej 20 m) są aktywne głównie w ciągu dnia, pozwalając na łączności z całym światem przy dosyć ograniczonym nakładzie środków. Propagacja zależy od bardzo wielu czynników: pory roku, dnia, aktywności słońca. 
 
@@ -141,14 +145,6 @@ Dość często aktualizowaną listę wydanych pozwoleń można znaleźć na stro
 \section{Jakie są zasady wydawania znaków wywoławczych?}
 Aktualnie znak wywoławczy jeśli jest wolny to można sobie wybrać, kiedyś wydawano je po kolei. Jedynym zastrzeżonym formalnie prefiksem jest SR - zarezerwowany dla pozwoleń kategorii 5 - stacjom automatycznym (stacjom pogodowym, beaconom, przemiennikom). Prefiksy 3Z, HF i SN zazwyczaj używane są w znakach stacji okolicznościowych i tak są postrzegane na świecie - jednak nie ma żadnych obostrzeń co do ich wyboru.
 
-\section{Co to jest okręg wywoławczy?}
-Formalnie, od kilku lat nie ma podziału Polski na okręgi wywoławcze. Podział jest jedynie tradycyjny. Okręg wywoławczy jest to obszar (konkretnie dla polski - obejmujący kilka województw) ułatwiający zlokalizowanie operatora w danej części kraju. W tym momencie przydział konkretnego numerka ma mniejsze znaczenie formalne niż kiedyś. Możliwe są sytuacje w której operator przenosi stację między okręgami, ale ze względów sentymentalnych pozostawia sobie znak z poprzedniego okręgu. 
-\begin{figure}[h]
- \centering
- \includegraphics[width=150pt]{./Polish_HAM_Radio_Regions.png}
- \caption{Mapa okręgów wywoławczych w Polsce}
-\end{figure}
-
 \section{Na czym polega łamanie znaku?}
 Łamanie znaku jest to chwilowa zmiana znaku ze względu na lokalizację stacji, lub warunki pracy. Przykładowy ”połamany” znak to: SP9KGP/m. Pracując z radia ręcznego (tzw. ręczniaka) łamiemy się przez /p, jak portable, działając z samochodu, poruszając się pojazdem mechanicznym /m, przebywając w innym okręgu, łamiemy się przez jego numer np. /8 dla ósmego okręgu. Tego typu łamanie znaku nie jest umocowanie prawnie i jest raczej umową i dobrym zwyczajem wśród radioamatorów.
 
@@ -157,6 +153,14 @@ Dodatkowe sufixy warte wspomnienia:
 \begin{itemize}
 \item /mm - maritime mobile, kutry, łodzie i inne pojazdy wodne
 \item /am - aerial mobile, zazwyczaj awionetka, lub szybowce\end{itemize}
+
+\section{Co to jest okręg wywoławczy?}
+Formalnie, od kilku lat nie ma podziału Polski na okręgi wywoławcze. Podział jest jedynie tradycyjny. Okręg wywoławczy jest to obszar (konkretnie dla polski - obejmujący kilka województw) ułatwiający zlokalizowanie operatora w danej części kraju. W tym momencie przydział konkretnego numerka ma mniejsze znaczenie formalne niż kiedyś. Możliwe są sytuacje w której operator przenosi stację między okręgami, ale ze względów sentymentalnych pozostawia sobie znak z poprzedniego okręgu. 
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=150pt]{./Polish_HAM_Radio_Regions.png}
+ \caption{Mapa okręgów wywoławczych w Polsce}
+\end{figure}
 
 \section{Co to są znaki okolicznościowe?}
 Formalnie chodzi o pozwolenie dodatkowe. Są to znaki nadawane na okres maksymalnie jednego roku, np. dla uczczenia jakiegoś wydarzenia lub osiągnięcia. Znak dodatkowy uzyskuje się w UKE, tak jak każdy inny znak. Pozwolenie dodatkowe funkcjonuje równolegle z podstawowym - w trakcie pracy można korzystać zarówno z pozwolenia podstawowego jak i dodatkowego. Często w ramach pozwolenia dodatkowego krótkofalowcy posiadają znak używany podczas zawodów. Istnieje również możliwość czasowej zmiany warunków pozwolenia podstawowego - np znaku wywoławczego. 
@@ -190,7 +194,7 @@ Na pasma krótkofalowe (szczególnie 80 m, 60 m, 40 m, 30 m i 20 m) najlepsze ef
 
 Jeśli chodzi o UKF, to na pierwszą antenę warto wybrać antenę możliwie dookólną, szczególnie jeśli nie wiemy w jakim kierunku są okoliczne stacje. Może to zaoszczędzić frustracji po półgodzinnym, bezskutecznym kręceniu anteną w poszukiwaniu upragnionego kontaktu. Anteny pionowe najczęściej są antenami dookólnymi, ale na niskie pasma mają dużą wysokość.
 
-W antenę warto zainwestować również przy okazji prób używania prostych odbiorników typu SDR (np. RTLSDR). Anteny dołączane do zestawu można traktować jako atrapy, nie dość, że są umieszczane blisko komputera, który jest dużym źródłem zakłóceń, to jeszcze są niedopasowane do interesujących nas częstotliwości.
+W antenę warto zainwestować również przy okazji prób używania prostych odbiorników typu SDR (np. RTL-SDR). Anteny dołączane do zestawu można traktować jako atrapy, nie dość, że są umieszczane blisko komputera, który jest dużym źródłem zakłóceń, to jeszcze są niedopasowane do interesujących nas częstotliwości.
 
 Na pasma UKF-owe bardzo chwalone i polecane są Yagi autorstwa DK7ZB\footnote{\url{http://dk7zb.darc.de}} ,,krótkie'' wersje można zrobić tanio i w dodatku bez większego nakładu pracy.
 
@@ -218,7 +222,7 @@ Tak, ale nie zawsze. Dipol na pasmo 7 MHz może działać na paśmie 21 MHz (cz�
 Transceiver przynajmniej na jedno pasmo (może być starszy, używany i popularny transceiver razem z niezbędnym wyposażeniem takim jak mikrofon), antena (może być dipol), kabel antenowy (na początek może być tani RG58) oraz źródło zasilania transceivera (najczęściej jest nim jakiś zasilacz o parametrach właściwych dla danego transceivera).
 
 \section{Jaki jest koszt całej imprezy?}
-W zależności od potrzeb. Można zacząć od zabawy w „nasłuchowca” kupując „RTLSDR” za kilkadziesiąt złotych, można zacząć od prostego radia ręcznego w okolicach 200 zł. Jeśli ktoś nie jest fanem łączności na fonii lub emisjami cyfrowymi, to można kupić dobre i wydajne radio jedno bądź kilkupasmowe za mniej niż 1000 zł. Z tzw. allbanderami (urządzenie obsługujące wszystkie podstawowe pasma amatorskie, zwykle z zakresu 160 m - 70 cm) sytuacja jest już troszkę mniej ,,kolorowa'', gdyż za nowy sprzęt trzeba czasami od 3 tysięcy złotych. Na szczęście w środowisku można znaleźć osoby, które sprzedają używany sprzęt za sensowne pieniądze.
+W zależności od potrzeb. Można zacząć od zabawy w „nasłuchowca” kupując ,,RTL-SDR'' za kilkadziesiąt złotych, można zacząć od prostego radia ręcznego w okolicach 200 zł. Jeśli ktoś nie jest fanem łączności na fonii lub emisjami cyfrowymi, to można kupić dobre i wydajne radio jedno bądź kilkupasmowe za mniej niż 1000 zł. Z tzw. allbanderami (urządzenie obsługujące wszystkie podstawowe pasma amatorskie, zwykle z zakresu 160 m - 70 cm) sytuacja jest już troszkę mniej ,,kolorowa'', gdyż za nowy sprzęt trzeba czasami od 3 tysięcy złotych. Na szczęście w środowisku można znaleźć osoby, które sprzedają używany sprzęt za sensowne pieniądze.
 Całość kosztów administracyjnych to: 50 zł opłaty za egzamin + 25 zł za wydanie świadectwa radiooperatora + 82 zł za wyrobienie i wydanie pozwolenia radiowego. I koszt dojazdów na egzamin, ewentualnego parkingu, czy przysłowiowego hot-doga na stacji paliw. Oraz znaczków pocztowych i koperty, ponieważ część dokumentów trzeba wysłać tradycyjną pocztą do UKE do Warszawy.
 
 \section{Czy egzamin jest trudny?}
@@ -254,8 +258,9 @@ Od doboru pasma zależy m.in. możliwy i oczekiwany zasięg naszej komunikacji. 
 Klub krótkofalarski, jest to jak nazwa wskazuje, organizacja skupiająca krótkofalowców. Są to stacje, gdzie operatorem może być każdy (oczywiście pod nadzorem operatora klubowego). Kluby często posiadają specjalistyczny sprzęt pomiarowy, wyczynowe anteny, czy bardziej zaawansowane radia. Klubowicze często pomagają sobie wzajemnie m.in. przy budowaniu nadajników, anten, przy regulacji sprzętu, wykonują wzajemne łączności. 
 
 \section{Jakie są zasięgi sprzętu amatorskiego?}
-Samo słowo “zasięg sprzętu” jest trochę niefortunnym określeniem, gdyż samo to “gdzie się dociera” zależy od wielu czynników, takich jak pogoda, warunki propagacyjne, pora dnia, moc nadajnika, skuteczność modulacji sprzętu, zysk anteny i wiele innych czynników. Nawet takie niby niepozorne rzeczy, jak promieniowanie słoneczne, czy mgła mogą znacząco wpłynąć na poprawę lub pogorszenie “zasięgu”.
+Samo słowo “zasięg sprzętu” jest trochę niefortunnym określeniem, gdyż samo to “gdzie się dociera” zależy od wielu czynników, takich jak pogoda, warunki propagacyjne, pora dnia, moc nadajnika, skuteczność modulacji, zysk anteny i wiele innych czynników. Nawet takie niby niepozorne rzeczy, jak promieniowanie słoneczne, czy mgła mogą znacząco wpłynąć na poprawę lub pogorszenie “zasięgu”.
 Na dodatek zawsze w łączności są dwie stacje. To, że z domowej anteny z mocą 50 W da się zrobić łączność z kimś z Tarnowa, kto ma również dobrą antenę nie znaczy, że da się taką samą łączność zrobić z kimś kto ma ręczniaka z małą antenką. 
+\\
 
 Dla bardzo wielkiego uproszczenia (mówimy oczywiście o UKF-ie):\\
 ręczniak $\Leftrightarrow$ ręczniak 1 - 10 km\\
@@ -266,6 +271,7 @@ baza $\Leftrightarrow$ baza 50 - 150 km \\
 W optymalnych warunkach przemiennik może zwiększyć ten zasięg dwukrotnie.
 W wypadku podniesionych warunków propagacyjnych da się przeprowadzić łączności Krakowa z Warszawą albo usłyszeć stacje np. z Kaliningradu.
 Na falach krótkich (1,8-30 MHz) zasięgi łączności wahają się od kilkuset kilometrów do całego świata. 
+Dużo zalezy też od samych umiejętności operatora, poziomu zakłóceń itp. 
 
 \section{O co chodzi z „warunkami” na pasmach?}
 Jonosfera nie zachowuje się cały czas tak samo. Czasem fala odbija się lepiej innym razem gorzej. Czasem tłumienie trasy czyli strata sygnału po drodze jest większa a czasem mniejsza. 
@@ -297,7 +303,7 @@ WebSDR\footnote{\url{http://websdr.org/}} to technologia dzięki której można 
 \section{Gdzie znaleźć rozszyfrowane skróty używane przez radioamatorów?}
 Skróty kodu Q i slang można znaleźć w artykule na Wikipedii\footnote{\url{http://pl.wikipedia.org/wiki/Kod_Q}}, całej reszty można się nauczyć słuchając, czy po prostu pytając. Krótkofalowcy to naprawdę mili ludzie. Ewentualnie możemy posiłkować się oficjalnymi dokumentami pierwszego regionu IARU nazwanego “HF Manager Handbook” w wersji najnowszej - można go zawsze znaleźć na stronach IARU\footnote{\url{http://www.iaru-r1.org/}}.
 
-\section{Mam radio, mam pozwolenie, jaką częstotliwość wpisać w radiu?}
+\section{Na jakich częstotliwościach najszybciej znajdę inne stacje i najlepiej zacząć wywołanie?}
 A na jakie pasmo masz radio?
 Jeśli na 2 m to zacznij od 145,550 MHz, to taka trochę krakowska częstotliwość wywoławcza. Wołają tam też stacje z gór (m.in. w programie SOTA) (głównie w lecie). Na częstotliwości 145,500 MHz są zwykle łączności typu DIRECT czyli bezpośrednie pomiędzy stacjami. Jeśli masz zdrowie do słuchania gadania o niczym to polecamy okoliczne przemienniki.
 
@@ -329,11 +335,7 @@ Jeśli chcesz ,,zrobić'' Japonię, lub inny dalszy kraj małą mocą, to warto 
 
 Trochę osobną kategorią są emisje cyfrowe w pasmach UKF, gdzie bardzo często wykorzystuje się zmodyfikowane emisje wprost z łączności profesjonalnej jak DMR. Jest też C4FM,DSTAR czy Fusion. Jeśli masz radio SSB to spotkasz też transmisje jak na KF i wiele innych specjalistycznych dedykowanych do łączności w tzw. "sporadycznych warunkach". 
 
-Do transmisji cyfrowych używać będziesz częściej komputera niż mikrofonu, a uzyskiwane zasięgi łączności z pewnością nie raz Cię zaskoczą. Musisz być cierpliwy i monitorować warunki bo następna ,,okazja'' do dalekiej łączności może być dopiero za wiele tygodni
-
-\section{Co to jest bandplan?}
-Bandplan to jest podział pasm na części, w których powinno się nadawać odpowiednią modulacją, z odpowiednią mocą, czy robiąc dalekie łączności. Jest to jasno określone przy każdym wycinku pasma. 
-Polski bandplan, jest identyczny, jak dla pierwszego regionu IARU (świat jest podzielony na trzy części - pierwsza to Europa, północna Azja, Afryka i Bliski Wschód, drugi to obydwie Ameryki, a trzecia to pozostała część Azji i kraje leżące na Pacyfiku (Australia, Nowa Zelandia, różnorakie wyspy). Należy zaznaczyć, że bandplan to nie jest prawo to raczej społeczna umowa, której powinniśmy przestrzegać aby żyło nam się lepiej. 
+Do transmisji cyfrowych używać będziesz częściej komputera niż mikrofonu, a uzyskiwane zasięgi łączności z pewnością nie raz Cię zaskoczą. Musisz być cierpliwy i monitorować warunki bo następna 'okazja' do dalekiej łączności może być dopiero za wiele tygodni
 
 \section{Czy przez radio mogę wysyłać dane i jeśli tak to jak?}
 Oczywiście. Istnieje ,,Packet Radio'', czyli łączności z wykorzystaniem protokołu AX.25, stosowane raczej na pasmach UKF-owych do przesyłania krótkich paczek danych, podobnie jak w Internecie.
@@ -385,7 +387,7 @@ Można. Mało to ciekawe na dłuższą metę, ale można.
 Technicznie słuchać można wszystkiego. Za to informacji zasłyszanych na pasmach innych niż amatorskie/ogólnodostępne nie wolno rozpowszechniać ani wykorzystywać. Jeśli transmisja jest szyfrowana nie wolno jej odszyfrowywać.
 
 \section{Czy mając licencję będę mógł postawić własnego BTS-a lub wskrzesić pagery?}
-Generalnie nie można uruchamiać typowych nadajników GSM, czy stacji bazowych dla pagerów na pasmach krótkofalarskich, ale da się stworzyć analogiczne urządzenia dopasowane do zasad i częstotliwości panujących na pasmach amatorskich. Przede wszystkim należy pamiętać o konieczności identyfikacji znakiem wywoławczym oraz o tym, że taka sieć/system będzie mogła być używana jedynie niekomercyjnie i tylko przez krótkofalowców. Oczywiście doświadczenie w pracy na pasmach amatorskich może później przydać się przy pracy przy komercyjnych systemach.
+Generalnie nie można uruchamiać typowych nadajników GSM, czy stacji bazowych dla pagerów na pasmach krótkofalarskich, ale da się stworzyć analogiczne urządzenia dopasowane do zasad i częstotliwości panujących na pasmach amatorskich. Przede wszystkim należy pamiętać o konieczności identyfikacji znakiem wywoławczym oraz o tym, że taka sieć/system będzie mogła być używana jedynie niekomercyjnie i tylko przez krótkofalowców. Oczywiście doświadczenie w pracy na pasmach amatorskich może później przydać się przy pracy przy komercyjnych systemach. 
 
 \section{Gdzie można znaleźć więcej źródeł informacji o służbie radioamatorskiej?}
 Znakomitym źródłem informacji są publikacje amerykańskiego ARRL\footnote{\url{http://www.arrl.org}} z serii ,,Handbook''. Znakomitymi publikacjami w języku polskim są zeszyty w opracowaniu Krzysztofa OE1KDA\footnote{\url{http://www.suchedniow.debesciak.net/downloads.php?cat_id=6}}. Polecamy też polskie\footnote{\url{http://sp-hm.pl/}} oraz rosyjskie\footnote{\url{http://www.cqham.ru/forum/forum.php}} fora dla konstruktorów. Istnieje też ,,radiowy'' kanał w komunikatorze Telegram\footnote{\url{https://t.me/joinchat/ES5Go1S6mekod-4noc0ozA}}. Można także osobiście wołać autorów tego dokumentu.
