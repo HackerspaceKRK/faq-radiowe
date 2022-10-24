@@ -1,0 +1,27 @@
+name: Build Statut
+on:
+  push:
+    branches:
+      - '*'
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: radio_faq1.tex
+          extra_system_packages: texlive-full
+      - name: Save artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          path: radio_faq1.pdf
+      - name: Build release
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          automatic_release_tag: lastest
+          files: radio_faq1.pdf
