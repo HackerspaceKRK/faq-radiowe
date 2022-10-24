@@ -1,14 +1,14 @@
-name: Build Statut
-on:
-  push:
-    branches:
-      - '*'
+name: Build FAQ
+on: [push]
 jobs:
-  build_latex:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v3
+      - name: Create daily tag
+        id: version
+        uses: fregante/daily-version-action@v2
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
@@ -23,5 +23,4 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
-          automatic_release_tag: lastest
           files: radio_faq1.pdf
