@@ -5,6 +5,9 @@ on:
       - closed
     branches:
       - master
+  push:
+    branches:
+      - master
 jobs:
   release:
     if: github.event.pull_request.merged == true
